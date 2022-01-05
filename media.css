@@ -10,13 +10,17 @@
     }
 }
 
-@media (max-width: 1050px) {
+@media (max-width: 1070px) {
     html{
         font-size: 16px;
     }
 
+    .menu{
+        margin-bottom: 50px;
+    }
+
     .menu__list{
-        position: absolute;
+        position: fixed;
         left: 0;
         top: 50px;
         display: none;
@@ -34,21 +38,22 @@
         text-align: center;
         width: 100%;
     }
+    
     .burger-container{
         display: block;
         z-index: 10;
     }
 
-    #toggle-menu:checked~ .menu-button > span{
+    #toggle-menu:checked~ .burger-menu__button > span{
         transform: rotate(45deg);
     }
 
-    #toggle-menu:checked~ .menu-button > span::before{
+    #toggle-menu:checked~ .burger-menu__button > span::before{
         top:0;
         transform: rotate(0);
     }
     
-    #toggle-menu:checked~ .menu-button > span::after{
+    #toggle-menu:checked~ .burger-menu__button > span::after{
         top:0;
         transform: rotate(90deg);
     }
@@ -69,6 +74,10 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+
+    .aside{
+        min-width: 40%;
     }
 
 }
@@ -113,6 +122,14 @@
 
 
 @media (max-width: 620px) {
+    html{
+        font-size: 12px;
+    }
+
+    .hobbies__item{
+        width: 50px;
+    }
+
     .details-container{
         flex-direction: column;
         gap: 20px;
@@ -127,9 +144,7 @@
         align-items: center;
     }
 
-    .hobbies__item{
-        width: 50px;
-    }
+
 }
 
 @media (max-width: 500px) {
@@ -167,6 +182,7 @@
 }
 
 @media (max-width: 375px) {
+
 
     .code{
         font-size: 12px;
