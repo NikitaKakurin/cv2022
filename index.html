@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script defer src="bundle.ca00332f24f50775ffc5.js"></script><link href="main8d9e455aded8dc203191.css" rel="stylesheet"></head>
+
+<body>
+    <div class = "container">
+    <header class="menu">
+        <nav class="menu__nav">
+          <div class="burger-container">
+            <div class="burger-menu">
+              <input type="checkbox" id="toggle-menu">
+              <label class="burger-menu__button" for="toggle-menu">
+                <span></span>   
+              </label>
+            </div>
+          </div>
+
+          <ul class = "menu__list">
+              <li class = "menu__item">
+                  <a href="#personal-details" class="menu__link" data-i18="contactsLink">contacts</a>
+              </li>
+              <li class = "menu__item">
+                  <a href="#about" class="menu__link" data-i18="aboutLink">about me</a>
+              </li>
+              <li class = "menu__item">
+                  <a href="#education" class="menu__link" data-i18="educationLink">education</a>
+              </li>
+              <li class = "menu__item">
+                  <a href="#skills" class="menu__link" data-i18="skillsLink">skills</a>
+              </li>
+              <li class = "menu__item">
+                  <a href="#languages" class="menu__link" data-i18="languagesLink">languages</a>
+              </li>
+              <li class = "menu__item">
+                  <a href="#example" class="menu__link" data-i18="projectsLink">my projects</a>
+              </li>
+          </ul>
+
+          <div class="header__btns-container">
+            <a class ="header__print" href="./assets/documents/CVForPrint.doc" download="" title="print CV"></a>
+            <div class="lang-switcher">
+              <label class="lang__label" for="lang-en">
+                  <span class="lang__text-en">EN</span>
+              </label>
+              <div class="switcher-toggle">
+                <input class="lang__radio-en" type="radio" name="lang" id="lang-en" checked>
+                <input class="lang__radio-ru" type="radio" name="lang" id="lang-ru">
+                <div class="switcher-handle"></div>
+              </div>
+              <label class="lang__label" for="lang-ru">
+                <span class="lang__text-ru">RU</span>
+              </label>
+            </div>
+          </div>
+        </nav>
+    </header>
+    <main>
+        <aside class="aside">
+            <header class="logo">
+                <img src="assets/f3fc07d351117f7f7c6b.jpg" alt="my photo" class ="logo__img" width="150" height="150">
+                <div class="logo__container">
+                    <h1><span data-i18="name">Nikita</span><br><span data-i18="surname">Kakurin</span></h1>
+                    <h2 class = "logo__specialty">front-end developer</h2>
+                </div>
+            </header>
+            
+          <div class="details-container">
+            <section class="personal-details">
+              <h2 id="personal-details" data-i18="details">Personal details:</h2>
+              <ul class="personal-details__list">
+                  <li class="personal-details__item"><img src="assets/561a3733f4cfe9cf389d.svg" alt="Birthday"><span data-i18="birthday"> Date of Birth: 08.09.1987;</span></li>
+                  <li class="personal-details__item" data-i18="Marital">Marital status: married;</li>
+              </ul>
+            </section>
+
+            <section class = "contacts-container">
+              <h2 data-i18="contactsTitle">Contacts:</h2>
+              <address class = "contacts">
+                <ul class = "contacts__list">
+                  <li class = "contacts__item"><img src="assets/819aa88393da69a81c0d.svg" alt="address" > <span data-i18="address"> Voronezh, Russia;</span></li>
+                  <li class = "contacts__item"><img src="assets/fbf5449d2e6df8de233c.svg" alt="call"> <a class="contacts__link" href="tel:+79515614387">+7(951)-561-43-87;</a></li>
+                  <li class = "contacts__item"><img src="assets/1136a977c37a9407321e.svg" alt="email"> <a class="contacts__link" href="mailto:KakurinN.V@yandex.ru">KakurinN.V@yandex.ru;</a></li>
+                  <li class = "contacts__item contacts__item-white"><img src="assets/e2f073269da5b56e8238.svg" alt = "github" width="24"> <a class="contacts__link" href="https://github.com/NikitaKakurin">NikitaKakurin;</a></li>
+                </ul>
+              </address> 
+            </section>
+          </div>
+          <section class="language">
+              <h2 id="languages" data-i18="languagesTitle">Languages:</h2>
+              <ul class="language__list">
+                  <li class="language__item" data-i18="langEn">English (level: pre-intermediate)</li>
+                  <li class="language__item" data-i18="langRu">Russian</li>
+              </ul>
+          </section>
+          <section class="certificates">
+            <h2 id="certificates" data-i18="CertificatesTitle">Certificates:</h2>
+            <div class="certificates__container">
+                <figure class="certificates__item-wrapper">
+                  <a href="https://app.rs.school/certificate/n0bkdy7s" class="certificates__item-link" target="blank">
+                      <img src="assets/9872ce4ed6d37fcbdaad.PNG" alt="rsschool javascript stage0 certificate"  class="certificates__item">
+                  </a>
+                  <figcaption>RSSCHOOL JS/FE PRE-SCHOOL (JAVASCRIPT) 2021</figcaption>
+                </figure>
+                <figure class="certificates__item-wrapper">
+                  <a href="https://www.efset.org/cert/MvqjCm" class="certificates__item-link" target="blank">
+                      <img src="assets/9d50363eeb0ccc905ab9.PNG" alt="EF SET certificate"  class="certificates__item ">
+                  </a>
+                  <figcaption >EF SET Certificate</figcaption>
+                </figure>
+            </div>
+          </section>
+          <section class="hobbies">
+              <h2 id="hobbies" data-i18="hobbiesTitle">Hobbies:</h2>
+              <div class="hobbies__container">
+                  <figure >
+                    <img src="assets/21cc6f313b6838bbf9a5.svg" alt="read books"  class="hobbies__item hobbies__item-white">
+                    <figcaption data-i18="read">read books</figcaption>
+                  </figure>
+                  <figure >
+                    <img src="assets/25a951a591e6dc44726c.svg" alt="play chess"  class="hobbies__item hobbies__item-white">
+                    <figcaption data-i18="play">play chess</figcaption>
+                  </figure>
+                  <figure >
+                    <img src="assets/7151bd118117827cce30.svg" alt="codewars"  class="hobbies__item hobbies__item-white">
+                    <figcaption>codewars</figcaption>
+                  </figure>
+              </div>
+          </section>
+        </aside>
+        <div class = "article-container">
+            <div class="article">
+                <section class="about">
+                  <h3 id="about" data-i18="aboutTitle">About me:</h3>
+                  <p class="about__text text" data-i18="aboutText"> Hi, I am currently working as an electrical engineer.
+                     I have a higher education in the field of automation of production systems,
+                      but I really want to become a frontend developer.
+                       I started studying programming many times, 
+                       but for a number of life reasons I temporarily stopped studying,
+                        but the desire to learn does not leave me. 
+                        Now I am ready to work as frontend developer.
+                  </p>
+                </section>
+
+                <section class = "example">
+                  <h3 id="example" data-i18="exampleTitle">Example of my code:</h3> 
+                  <ul class="example__list">
+                    <li><span data-i18="codewarsOld">I have old profile of codewars which I used in 2016-2017 </span><a href="https://www.codewars.com/users/NikitaKakurinOLD" target ="blank" class="example__link">NikitaKakurinOLD</a></li>
+                    <li><span data-i18="codewarsNew">started a new profile for rsschool course </span><a href="https://www.codewars.com/users/NikitaKakurin" target ="blank" class="example__link">NikitaKakurin</a>;</li>
+                    <li><span data-i18="shortExample">short example of my code from </span><a href="https://www.codewars.com/kata/546e2562b03326a88e000020" target ="blank" class="example__link">Codewars</a>:<br></li>
+                      <p data-i18="functionDescription">function which returns square every digit:</p>
+                      <div class="code__demo">
+                        <h2 class="code__demo-title" data-i18="demoTitle">Demo:</h2>
+                        <div>
+                          <span data-i18="please">Please input value from 0 to 999</span>
+                          <input class = "code__demo-value" type="number" max="999" min="0" placeholder="number" >
+                        </div>
+                        <div class="code__demo-function"></div> 
+                        <div class="code__demo-animation"></div>
+                      </div>
+                      <pre class = "code"><code>
+function squareDigits(num){
+  return +num.toString()
+    .split(&quot;&quot;)
+    .map(function(x){return x*x;})
+    .join(&quot;&quot;);
+}</code></pre>
+                    </li>
+
+
+                    <li> <p data-i18="projectsTitle">My projects:</p> 
+                      <div class="my-projects">
+                        
+                        <a href="https://nikitakakurin-portfolio1.netlify.app/" target="blank" class = "my-projects__link">
+                          <figure class = "my-projects__container_img">
+                            <img src="assets/9f4942aabe89e992f043.PNG" alt="portfolio"  class = "my-projects__img">
+                            <figcaption class = "my-projects__text">
+                              <span data-i18="portfolioName">Site "Portfolio"</span>
+                              <span>Mobile, desktop</span>
+                              <span>HTML, CSS3, JS</span>
+                            </figcaption>
+                          </figure>
+                        </a>
+
+                        <a href="https://nikitakakurin-2048.netlify.app" target="blank" class = "my-projects__link">
+                          <figure class = "my-projects__container_img">
+                            <img src="assets/2f742f565e5ae466d4da.PNG" alt="game 2048"  class = "my-projects__img">
+                            <figcaption class = "my-projects__text">
+                              <span data-i18="2048Name">Game "2048"</span>
+                              <span>Mobile, desktop</span>
+                              <span>HTML, SCSS, JS</span> 
+                            </figcaption>
+                          </figure>
+                        </a>
+
+                        <a href="https://nikitakakurin-movie-app.netlify.app" target="blank" class = "my-projects__link">
+                          <figure class = "my-projects__container_img">
+                            <img src="assets/fca640882d778a15538d.PNG" alt="site movie-app"  class = "my-projects__img">
+                            <figcaption class = "my-projects__text">
+                              <span data-i18="movieAppName">Site "Movie-app"</span>
+                              <span>Mobile, desktop</span>
+                              <span>HTML, CSS3, JS</span> 
+                            </figcaption>
+                          </figure>
+                        </a>
+
+                        <a href="https://nikitakakurin-eco-sounds.netlify.app" target="blank" class = "my-projects__link">
+                          <figure class = "my-projects__container_img">
+                            <img src="assets/12e430c0388cc9d59a85.PNG" alt="site movie-app"  class = "my-projects__img">
+                            <figcaption class = "my-projects__text">
+                              <span data-i18="ecoName">Site "Eco-sounds"</span>
+                              <span>Desktop</span>
+                              <span>HTML, SCSS, JS</span>
+                            </figcaption>
+                          </figure>
+                        </a>
+
+                        <a href="https://nikitakakurin-drum-kit.netlify.app" target="blank">
+                          <figure class = "my-projects__container_img">
+                            <img src="assets/8a63a73db663c2ddc797.png" alt="drum-kit"  class = "my-projects__img">
+                            <figcaption class = "my-projects__text">
+                              <span data-i18="drumName">Music app "Drum-kit"</span>
+                              <span>Desktop</span>
+                              <span>HTML5, CSS3, JS</span>
+                            </figcaption>
+
+                          </figure>
+                        </a>
+
+                      </div>
+                    </li>
+                  </ul>
+                </section>
+  
+                <section class="experience">
+                  <h3 data-i18="experienceTitle">Professional experience:</h3> 
+                  <p data-i18="experienceText">I have some experience, I have made several games and several template-based websites using Webpack to build.</p>
+                </section>
+
+                <section>
+                  <h3 id="education" data-i18="educationTitle">Education:</h3> 
+                    <p data-i18="educationUniversity">2004-2009: Ukraine, Alchevsk, Donbass State Technical University - Electronic Engineering Engineer.</p> 
+                    <p>2021: RSSchool JS/FE Pre-School(javascript)</p>
+                    <p>2021: RSSchool JS/FE stage1</p>
+                    <p>2022: RSSchool JS/FE Pre-School(javascript)</p>
+                </section>
+   
+                <section class = skills>
+                    <h3 id="skills" data-i18="skillsTitle">skills:</h3>
+                    <ul class = skills__list>
+                      
+                      <li class = skills__item>
+                        <figure class="skills__figure">
+                          <svg width = "150" height = "150" viewBox ="0 0 50 50" class = "donut" >
+                            <circle class = "donut-hole" cx="25" cy="25" r="19.89436788648" 
+                              fill ="#26dced"></circle>
+  
+                            <circle class = "donut-ring" cx="25" cy="25" r="19.89436788648" 
+                                fill ="transparent" stroke="#f2f3f4" stroke-width="5"></circle>
+                             <!-- radius of circle = 125, so 75% = 125 * 0.75 = 93.75; --> 
+                            <circle class = "donut-segment" cx="25" cy="25" r="19.89436788648" 
+                                fill ="transparent" stroke="#3B5999" stroke-width="5" stroke-dasharray = "93.75 31.25" stroke-dashoffset = "31.25"></circle>
+                            <image href="assets/5804150e47fbeb132a5d.svg" width="28" height="28" class ="svg-logo__html5"></image>
+                          </svg>
+                          <figcaption class="skills-text">HTML5</figcaption>
+                        </figure>                        
+                      </li>
+
+                      <li class = skills__item>
+                        <figure class="skills__figure">
+                          <svg width = "150" height = "150" viewBox ="0 0 50 50" class = "donut" >
+                            <circle class = "donut-hole" cx="25" cy="25" r="19.89436788648" 
+                              fill ="#26dced"></circle>
+  
+                            <circle class = "donut-ring" cx="25" cy="25" r="19.89436788648"  
+                                fill ="transparent" stroke="#f2f3f4" stroke-width="5"></circle>
+                            <!-- radius of circle = 125, so 70% = 125 * 0.70 = 87.5; -->  
+                            <circle class = "donut-segment" cx="25" cy="25" r="19.89436788648" 
+                                fill ="transparent" stroke="#3B5999" stroke-width="5" stroke-dasharray = "87.5 37.5" stroke-dashoffset = "31.25"></circle>
+                                <image href="assets/541200b174db976480ed.svg" width="28" height="28" class ="svg-logo__css3"></image>
+                            </svg>
+                          <figcaption class="skills-text">CSS3</figcaption>
+                        </figure>                        
+                      </li>
+
+                      <li class = skills__item>
+                        <figure class="skills__figure">
+                          <svg width = "150" height = "150" viewBox ="0 0 50 50" class = "donut" >
+                            <circle class = "donut-hole" cx="25" cy="25" r="19.89436788648" 
+                              fill ="#26dced"></circle>
+  
+                            <circle class = "donut-ring" cx="25" cy="25" r="19.89436788648" 
+                                fill ="transparent" stroke="#f2f3f4" stroke-width="5"></circle>
+                            <!-- radius of circle = 125, so 65% = 125 * 0.65 = 81.25; -->
+                            <circle class = "donut-segment" cx="25" cy="25" r="19.89436788648" 
+                                fill ="transparent" stroke="#3B5999" stroke-width="5" stroke-dasharray = "81.25 43.75" stroke-dashoffset = "31.25"></circle>
+                            <image href="assets/61c1fa6b2ee4eb8ce8d0.svg" width="25" height="25" class ="svg-logo__js"></image>
+                          </svg>
+                          <figcaption class="skills-text">JS</figcaption>
+                        </figure>                        
+                      </li>
+
+                      <li class = skills__item>
+                        <figure class="skills__figure">
+                          <svg width = "150" height = "150" viewBox ="0 0 50 50" class = "donut" >
+                            <circle class = "donut-hole" cx="25" cy="25" r="19.89436788648" 
+                              fill ="#26dced"></circle>
+                            <!-- radius of circle = 125, so 55% = 125 * 0.55 = 68,75; --> 
+                            <circle class = "donut-ring" cx="25" cy="25" r="19.89436788648" 
+                                fill ="transparent" stroke="#f2f3f4" stroke-width="5"></circle>
+  
+                            <circle class = "donut-segment" cx="25" cy="25" r="19.89436788648" 
+                                fill ="transparent" stroke="#3B5999" stroke-width="5" stroke-dasharray = "68.75 56.25" stroke-dashoffset = "31.25"></circle>
+                            <image href="assets/dd8f1dcaa3e71f534f3f.svg" width="35" height="35" class ="svg-logo__git"></image>
+                          </svg>
+                          <figcaption class="skills-text">GIT</figcaption>
+                        </figure>                        
+                      </li>
+
+                      <li class = skills__item>
+                        <figure class="skills__figure">
+                          <svg width = "150" height = "150" viewBox ="0 0 50 50" class = "donut" >
+                            <circle class = "donut-hole" cx="25" cy="25" r="19.89436788648" 
+                              fill ="#26dced"></circle>
+                            <circle class = "donut-ring" cx="25" cy="25" r="19.89436788648" 
+                                fill ="transparent" stroke="#f2f3f4" stroke-width="5"></circle>
+                              <!-- radius of circle = 125, so 50% = 125 * 0.5 = 62.5; -->
+                            <circle class = "donut-segment" cx="25" cy="25" r="19.89436788648" 
+                                fill ="transparent" stroke="#3B5999" stroke-width="5" stroke-dasharray = "62.5 62.5" stroke-dashoffset = "31.25"></circle>
+                            <image href="assets/0c6e042433d7773ac9a8.svg" width="30" height="30" class ="svg-logo__python"></image>
+                          </svg>
+                          <figcaption class="skills-text">Python</figcaption>
+                        </figure>                        
+                      </li>
+
+                      <li class = skills__item>
+                        <figure class="skills__figure">
+                          <svg width = "150" height = "150" viewBox ="0 0 50 50" class = "donut" >
+                            <circle class = "donut-hole" cx="25" cy="25" r="19.89436788648" 
+                              fill ="#26dced"></circle>
+                            <circle class = "donut-ring" cx="25" cy="25" r="19.89436788648" 
+                                fill ="transparent" stroke="#f2f3f4" stroke-width="5"></circle>
+                              <!-- radius of circle = 125, so 50% = 125 * 0.5 = 62.5; -->
+                            <circle class = "donut-segment" cx="25" cy="25" r="19.89436788648" 
+                                fill ="transparent" stroke="#3B5999" stroke-width="5" stroke-dasharray = "62.5 62.5" stroke-dashoffset = "31.25"></circle>
+                            <image href="assets/f44900ae6538b4d77864.svg" width="30" height="30" class ="svg-logo__webpack"></image>
+                          </svg>
+                          <figcaption class="skills-text">Webpack</figcaption>
+                        </figure>                        
+                      </li>
+
+                      <li class = skills__item>
+                        <figure class="skills__figure">
+                          <svg width = "150" height = "150" viewBox ="0 0 50 50" class = "donut" >
+                            <circle class = "donut-hole" cx="25" cy="25" r="19.89436788648" 
+                              fill ="#26dced"></circle>
+                            <circle class = "donut-ring" cx="25" cy="25" r="19.89436788648" 
+                                fill ="transparent" stroke="#f2f3f4" stroke-width="5"></circle>
+                              <!-- radius of circle = 125, so 50% = 125 * 0.5 = 62.5; -->
+                            <circle class = "donut-segment" cx="25" cy="25" r="19.89436788648" 
+                                fill ="transparent" stroke="#3B5999" stroke-width="5" stroke-dasharray = "62.5 62.5" stroke-dashoffset = "31.25"></circle>
+                            <image href="assets/540ec25faf04e640b555.svg" width="30" height="30" class ="svg-logo__sass"></image>
+                          </svg>
+                          <figcaption class="skills-text">Sass</figcaption>
+                        </figure>                        
+                      </li>
+                    </ul>
+                </section>
+              </div>
+        </div>
+    </main>
+    <footer class ="footer">
+      <div class="footer-container">
+        <address class="address-footer">
+          <p data-i18="author">Author: Kakurin Nikita  <a href="https://github.com/NikitaKakurin"><img class="git-logo" src="assets/7e5c7e4a2af8a8644f03.png" alt="git-logo" width="50" ></a></p>
+          <time datetime="2021-07-26">03.01.2022</time>
+        </address>
+        <div class="rsschool-container">
+          <a  href="https://rs.school/js/"><img class="rsschool-logo" src="assets/133684eb6e09f8c6769b.png" alt="rsschool-logo" width="100"> </a>
+        </div>
+      </div>
+      <p class="copyrating">&#169; CV Kakurin Nikita, 2021</p>
+    </footer>
+    </div>
+</body>
+</html>
